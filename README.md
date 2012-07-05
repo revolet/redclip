@@ -15,8 +15,8 @@ Set up MySQL access by creating the database and adding a user.
 You really should use a different password from the example.
 Be sure to update redclip.conf as well.
 
-CREATE DATABASE redclip;
-
-GRANT SELECT,INSERT,UPDATE,DELETE TO redclip@localhost IDENTIFIED BY 'k|dylmAv0';
+    CREATE DATABASE redclip;
+    
+    GRANT SELECT,INSERT,UPDATE,DELETE TO redclip@localhost IDENTIFIED BY 'k|dylmAv0';
 
 
