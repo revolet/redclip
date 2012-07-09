@@ -2,6 +2,7 @@
 
 BEGIN {
     $ENV{CATALYST_SCRIPT_GEN} = 40;
+    $ENV{CATALYST_DEBUG} = 1;
 }
 
 use Catalyst::ScriptRunner;
