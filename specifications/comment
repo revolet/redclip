@@ -1,0 +1,9 @@
+Submitter:          username
+Content:            text
+
+Stats:
+Comment Stats:
+    Upvotes:        int
+    Downvotes:      int
+    Date Submitted  Date
+

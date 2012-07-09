@@ -1,0 +1,22 @@
+username:  3-15 letters (alphanumeric or alphanumeric and special characters?)
+password:  6-20 characters,
+            requires:   1 upper
+                        1 lower
+                        1 special
+            stored a s bcrypt encoded hash
+
+Profile:
+    link points:    int
+    comment points: int
+    Real Name:      Str (Optional) (Letters and spaces only)
+    DOB:            Date (optional)
+    E-Mail:         Str (Optional)
+
+Role(s):
+    modorator:      list of clips
+    submitter:      list of clips
+
+Tables:
+    User:           user_id, username,
+    UserProfile:    profile_id, user_id, link_points, comment_points, real_name, date_of_birth, email
+    roles:          role_id, user_id, has_many_clip_ids

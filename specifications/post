@@ -1,0 +1,11 @@
+Post Title:         Text
+Post Content:       URL or Text
+
+Post Stats:
+    Hits:           int
+    Unique Hits:    int
+    Upvotes:        int
+    Downvotes:      int
+    Date Submitted  Date
+
+Has Many:           Comments
