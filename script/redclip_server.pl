@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
 
+# PODNAME: redclip_server.pl
+
 BEGIN {
     $ENV{CATALYST_SCRIPT_GEN} = 40;
     $ENV{CATALYST_DEBUG} = 1;

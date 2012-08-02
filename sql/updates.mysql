@@ -1,0 +1,18 @@
+CREATE DATABASE redclip;
+
+-- Please use a different password than then default, and update it in redclip.conf
+GRANT SELECT,INSERT,UPDATE,DELETE TO redclip@localhost IDENTIFIED BY 'k|dylmAv0';
+
+USE redclip;
+
+CREATE TABLE `user` (
+  `id` BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(255)  NOT NULL,
+  `email` VARCHAR(255)  NOT NULL,
+  `username` VARCHAR(255)  NOT NULL,
+  `password` VARCHAR(255)  NOT NULL,
+  PRIMARY KEY (`id`)
+)
+ENGINE = InnoDB
+CHARACTER SET utf8 COLLATE utf8_general_ci;
+

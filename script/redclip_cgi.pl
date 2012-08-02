@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
 
+# PODNAME: redclip_cgi.pl
+
 use Catalyst::ScriptRunner;
 Catalyst::ScriptRunner->run('Redclip', 'CGI');
 

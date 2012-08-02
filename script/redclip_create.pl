@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
 
+# PODNAME: redclip_create.pl
+
 use strict;
 use warnings;
 

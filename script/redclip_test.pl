@@ -1,5 +1,7 @@
 #!/usr/bin/env perl
 
+# PODNAME: redclip_test.pl
+
 use Catalyst::ScriptRunner;
 Catalyst::ScriptRunner->run('Redclip', 'Test');
 
